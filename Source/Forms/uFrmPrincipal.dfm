@@ -586,10 +586,12 @@ object frmPrincipal: TfrmPrincipal
     object queryProdutosNVALORVENDA: TFloatField
       DisplayLabel = 'Valor Venda'
       FieldName = 'NVALORVENDA'
+      DisplayFormat = '#,##0.00'
     end
     object queryProdutosNQTDESTOQUE: TFloatField
       DisplayLabel = 'Qtd. Estoque'
       FieldName = 'NQTDESTOQUE'
+      DisplayFormat = '#,##0.00'
     end
   end
 end
